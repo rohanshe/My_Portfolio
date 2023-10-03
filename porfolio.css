@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.hero-container{
+    height: 550px;
+   /* background-image: url("file:///C:/Users/HP/Downloads/wp4892340-4k-minimal-wallpapers.jpg"); */
+  background-image: url("nature1.jpg");
+   background-size: cover;
+   opacity: 30px;
+
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 44px;
+}
+
+#first-para {
+    font-family: Broadway;
+    font-size: 100px;
+    color: #d9d4e8;
+    margin-top: 20px;
+}
+
+#second-para {
+    font-size: 28px;
+    font-family: Courier New;
+    color: #480e7f;
+    margin-left: 7px;
+    margin-top: -40px;
+
+}
+.my-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-img>img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 80px;
+
+}
+.rohan-para{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-family: Bahnschrift Condensed;
+    letter-spacing: 2px;
+    color: rgb(183, 179, 179);
+}
+body{
+    background-color: #d7dee9ce;
+}
+.Skills-div>h2{
+    margin-top: 80px;
+
+}
+@media(max-width:500px){
+    .logo-img{
+        height: 80px;
+        width: 80px;
+    }
+    #first-para{
+        font-size: 80px;
+    }
+}
